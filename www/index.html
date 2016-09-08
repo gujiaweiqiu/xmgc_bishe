@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="//cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <style>
+        #index{
+            width: 80%;
+            background-color:darkgray;
+        }
+        #sidebar{
+            width: 200px;
+            height: 500px;
+            background-color:darkgray;
+        }
+        #index span{
+            color: white;
+        }
+        #pic{
+            width: 60px;
+           height:60px;
+          background-color: white;
+            border-radius:30px ;
+            margin: 0px auto;
+        }
+        #sidebar p{
+            font-weight: bolder;
+            font-size: 20px;
+            text-align: center;
+        }
+        #sidebar button{
+            margin-left: 70px;
+            border: solid 1px white;
+            background-color: darkgray;
+
+        }
+        .list-group-item{
+        background-color: white;
+            color:black;
+        }
+    </style>
+</head>
+<body>
+<div id="index">
+ <span class="glyphicon glyphicon-th-list"></span>
+</div>
+    <div id="sidebar">
+    <div id="pic"></div>
+   <p>姓名</p>
+    <button type="button" class="btn btn-primary">注销</button>
+    <ul class="list-group">
+        <li class="list-group-item">任务书</li>
+        <li class="list-group-item">开题报告</li>
+        <li class="list-group-item">编辑论文</li>
+        <li class="list-group-item">导师意见</li>
+        <li class="list-group-item">选择项目</li>
+    </ul>
+    </div>
+
+<script src="//cdn.bootcss.com/jquery/3.1.0/jquery.js"></script>
+<script src="javaScript/index.js"></script>
+<script src="//cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.js"></script>
+</body>
+</html>

@@ -3,19 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link href="//cdn.bootcss.com/bootstrap/4.0.0-alpha.3/css/bootstrap.css" rel="stylesheet">
+    <link href="//cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <style type="text/css">
+        #container{
+
+        }
+        #pic{
+            width:100px;
+            height:100px;
+            border-radius:50px;
+            border: solid 1px;
+            float: left;
+            margin-left: 10%;:
+        }
+      #name{
+          margin-left: 40%;
+          font-weight: bolder;
+          font-size: 30px;
+      }
+        .list-group{
+            border: solid 1px black;
+            width: 80%;
+            margin: 0px auto;
+        }
+        .input-group,button{
+           margin-left:35%;
+        }
+        @media (max-width:768px) {
+       .list-group{
+           width: 100%;
+       }
+        }
+        input{
+            width: 200px;
+            height:40px;
+        }
+    </style>
 </head>
 <body>
-<div>
+<div id="container">
+
     <ul class="list-group">
-        <li class="list-group-item">Cras justo odio</li>
-        <li class="list-group-item">Dapibus ac facilisis in</li>
-        <li class="list-group-item">Morbi leo risus</li>
-        <li class="list-group-item">Porta ac consectetur ac</li>
-        <li class="list-group-item">Vestibulum at eros</li>
+        <li class="list-group-item">
+            <div>kmhy</div>
+            <div></div>
+            <div id="pic"></div>
+            <div id="name">我的姓名</div>
+            <div class="input-group">
+                <span class="input-group-addon">个性签名</span>
+                <span class="input-group-addon">个性签名</span>
+                <input type="text"  placeholder="Username">
+            </div>
+            <button type="button" class="btn btn-default">编辑个人信息</button>
+        </li>
+        <li class="list-group-item">学号：PTC10-H03160731</li>
+        <li class="list-group-item">联系电话：188*****2801</li>
+        <li class="list-group-item">专业：信息与计算科学</li>
+        <li class="list-group-item">入学时间：2016-07-13</li>
     </ul>
 </div>
-<script src="//cdn.bootcss.com/jquery/3.1.0/core.js"></script>
-<script src="//cdn.bootcss.com/bootstrap/4.0.0-alpha.3/js/bootstrap.js"></script>
+<!--<input type="file">-->
+<script src="//cdn.bootcss.com/jquery/3.1.0/jquery.js"></script>
+<script src="//cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.js"></script>
 </body>
 </html>

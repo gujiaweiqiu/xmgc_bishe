@@ -5,11 +5,12 @@
     <title>Title</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link href="//cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.css" rel="stylesheet">
+    <link href="top.css" rel="stylesheet">
 </head>
 <body>
 <div class="navbar navbar-default">
     <div class="navbar-header">
-        <a href="#">项目工场</a>
+        <a href="#"><img src="images/1.png"></a>
         <button type="button" class="navbar-toggle"  data-toggle="collapse" data-target="#nav">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -18,7 +19,7 @@
     </div>
     <div id="nav" class="collapse navbar-collapse">
         <ul class="nav navbar-nav navbar-left">
-            <li ><a href="#">学生</a></li>
+            <li ><a data-toggle="dropdown" href="#">学生</a></li>
             <li class="dropdown open">
                 <a data-toggle="dropdown" href="#">老师</a>
                 <!--<ul class="dropdown-menu pull-left" role="menu" aria-labelledby="dropdown-menu">-->
@@ -28,14 +29,14 @@
                     <!--<li><a href="#">设计模式</a></li>-->
                 <!--</ul>-->
             </li>
-            <li><a href="#">论文库</a></li>
-            <li><a href="#">更多<span class="caret"></span></a></li>
+            <li><a data-toggle="dropdown" href="#">论文库</a></li>
+            <li><a data-toggle="dropdown" href="#">更多<span class="caret"></span></a></li>
         </ul>
-        <ul class="nav navbar-nav navbar-right">
-            <li><a href="#"><span class="glyphicon glyphicon-asterisk"></span>姓名<span class="caret"></span></a></li>
-            <li><a href="#"><span class="glyphicon glyphicon-sunglasses"></span><span class="caret"></span></a></li>
-            <li><a href="#"><span class="glyphicon glyphicon-piggy-bank"></span></a></li>
-        </ul>
+        <!--<ul class="nav navbar-nav navbar-right">-->
+            <!--<li><a href="#"><span class="glyphicon glyphicon-asterisk"></span>姓名<span class="caret"></span></a></li>-->
+            <!--<li><a href="#"><span class="glyphicon glyphicon-sunglasses"></span><span class="caret"></span></a></li>-->
+            <!--<li><a href="#"><span class="glyphicon glyphicon-piggy-bank"></span></a></li>-->
+        <!--</ul>-->
     </div>
 </div>
 <script src="//cdn.bootcss.com/jquery/3.1.0/jquery.js"></script>
